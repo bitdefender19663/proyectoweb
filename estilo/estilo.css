@@ -1,0 +1,239 @@
+body{
+font-family: 'Allerta', sans-serif;	
+margin: 0;
+}
+
+.titulo{
+	font-size: 70px;
+	margin-bottom: 0;
+	margin-top: 70px;
+}
+
+.resumen{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.facil_programacion{
+	color: #1F313C;
+}
+
+/*Dentro de programacion facil..*/
+.programacion{
+	border: 1px solid #1F313C;
+	padding: 10px;
+	border-radius: 8px;
+	margin: 10px;
+	margin-bottom: 20px;
+}
+
+.facil_programacion h1{
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 40px;
+}
+
+.facil_programacion h2{
+	font-size: 50px;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+.facil_programacion p{
+	padding: 0;
+}
+
+.background{
+	background-image: url(../imagenes/background.png);
+	background-size: cover;
+}
+
+.portada{
+	color: white;
+	padding: 20px;
+	height: 500px;
+}
+
+.portada button{
+	margin-bottom: 70px;
+}
+
+.menu{
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+}
+
+.logotipo{
+	display: inline-block;
+	margin-left: 0;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.contenedor{
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+.derecha{
+	float: right;
+}
+
+.posicion1{
+	margin-left: 116px;
+	position: relative;
+	top: -50px;
+	right: 48px;
+}
+.posicion2{
+	margin-right: 60px;
+  margin-bottom: 25px;
+	position: relative;
+  top: 35px;
+  right: -25px;
+}
+
+.posicion3{
+	position: relative;
+  top: -20px;
+  right: 10px;
+}
+
+.izquierda{
+	float: left;
+}
+
+.contenedor_programa-a{
+	padding-left: 20	px;
+}
+
+.contenedor_programa-b{
+	margin-left: 0px;
+}
+
+header{
+	position: relative;
+}
+
+.button{
+	border-radius: 12px;
+	border: none; /*No borde*/
+	background: #fd324e; 
+	color: white;
+	padding: 7px 12px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 18px;
+	background: linear-gradient(to left, #fe344e, #ff7250)
+}
+
+.footer{
+	background: #273b47;
+	padding: 50px 10px;
+}
+
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+}
+
+.contacto img{
+	display: block;
+}
+
+.contacto strong{
+	display: block;
+}
+
+.contacto a{
+	color: white;
+	text-decoration: none;
+	margin: 10px 10px 10px 0;
+	align-items: center;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario{
+	display: flex;
+	width: 400px;
+	color: white;
+}
+
+.col1 ,.col2{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1{
+	margin-right: 15px;
+}
+
+.col2{
+	align-items: flex-start;
+}
+
+.col2 .button{
+	margin-top: 15px;
+}
+
+.intereses label{
+	font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses{
+	margin-bottom: 10px;
+}
+
+.sexo{
+	margin-top: 10px;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	background: #273b47;
+	color: white;
+	padding: 10px 20px;
+	text-align: left;
+}
+
+td{
+	padding: 20px;	
+}
+
+table, td , th{
+	border: 1px solid #273b47;
+	border-collapse: collapse;	
+}
+
+.menu li:before{
+	content: 'º';
+	font-size: 30px;
+	line-height: 20px;
+	color: white;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.tabla{
+	margin: 50px 0;
+}
+
+
